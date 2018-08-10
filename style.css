@@ -1,0 +1,165 @@
+body, html {
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+header {
+	background-color: #0F0F0F;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	text-align: start;
+}
+
+li {
+	color: #FFF;
+	font-family: Garamond, serif;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 20px 30px;
+	display: inline-block;
+}
+
+li:hover {
+	background-color: #716969;
+}
+
+ul a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+main.Home {
+	position: relative;
+	display: block;
+	font-weight: bold;
+	top: 58px;
+	height: 100%;
+	background-color: #FBFBFB;
+	background-image: url("Nishant.jpg");
+	background-size: cover;
+}
+
+h1.Home {
+	margin: 0;
+	color: #FBFBFB;
+	font-family: Raleway, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	position: relative;
+	top: 39%;
+	left: 55%;
+}
+
+p.Home {
+	margin: 0;
+	color: #FBFBFB;
+	font-family: Raleway, sans-serif;
+	font-size: 20px;
+	position: relative;
+	top: 41%;
+	left: 55%;
+}
+
+#link {
+	margin: 0;
+	color: #FBFBFB;
+	font-family: Raleway, sans-serif;
+	font-size: 15px;
+	position: relative;
+	top: 45%;
+	left: 55%;
+}
+
+a.link {
+	text-decoration: underline;
+	color: #FBFBFB;
+}
+
+a.link:hover {
+	color: purple;
+}
+
+
+
+
+
+
+
+
+
+
+main.About {
+	position: relative;
+	top: 58px;
+	height: 100%;
+}
+
+div.DP {
+	grid-area: DP;
+}
+
+img.About {
+	width: 100%;
+	height: auto;
+	
+}
+
+div.Text {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	grid-area: Text;
+	background-color: tan;
+	overflow: scroll;
+}
+
+div.About {
+	display: grid;
+	position: relative;
+	grid-template-columns: 40% 60%;
+	grid-template-rows: 100%;
+	grid-template-areas: "DP Text";
+}
+
+p.About {
+	margin-top: 0;
+	position: relative;
+	top: 25%;
+	padding: 0 30px;
+	font-family: Quicksand;
+	font-size: 20px; 
+}
+
+a.About {
+	text-decoration: underline dotted black;
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+body.gallery {
+	overflow: scroll;
+}
+
+div.gallery {
+	display: grid;
+	position: relative;
+	top: 58px;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 10px 10px;
+}
