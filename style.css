@@ -159,7 +159,62 @@ body.gallery {
 div.gallery {
 	display: grid;
 	position: relative;
+	background-color: tan;
 	top: 58px;
+	padding: 25px 0;
+	padding-left: 25px;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 10px 10px;
+}
+
+.gallery a:hover img {
+	box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+
+
+
+
+
+
+
+
+
+main.contact {
+	position: relative;
+	top: 58px;
+	background-color: tan;
+	height: 100%;
+}
+
+div.contact {
+	background-color: rgba(128, 128, 128, 0.2);
+	width: 50%;
+	margin: auto;
+	padding: 30px;
+	position: relative;
+	top: 20%;
+	text-align: center;
+}
+
+img.contact {
+	display: inline-block;
+	padding: 0 30px;
+	margin: 0 auto;
+}
+
+div.imageLinks {
+	padding-top: 10px;
+	display: inline-block;
+	margin: auto;
+}
+
+p.contact {
+	font-size: 20px;
+	font-family: Quicksand, sans-serif;
+}
+
+a.address {
+	color: black;
+	text-decoration: underline dotted black;
 }
