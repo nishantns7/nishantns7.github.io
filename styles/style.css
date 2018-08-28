@@ -3,10 +3,11 @@ body, html {
 	height: 100%;
 	width: 100%;
 	overflow: hidden;
+	background-color: tan;
 }
 
 header {
-	background-color: #0F0F0F;
+	background-color: rgba(74, 104, 153, 0.2);
 	position: fixed;
 	width: 100%;
 	z-index: 10;
@@ -43,7 +44,7 @@ main.Home {
 	top: 58px;
 	height: 100%;
 	background-color: #FBFBFB;
-	background-image: url("Nishant.jpg");
+	background-image: url("../images/Nishant.jpg");
 	background-size: cover;
 }
 
@@ -180,7 +181,7 @@ div.gallery {
 
 
 
-main.contact {
+/*main.contact {
 	position: relative;
 	top: 58px;
 	background-color: tan;
@@ -217,4 +218,57 @@ p.contact {
 a.address {
 	color: black;
 	text-decoration: underline dotted black;
+}*/
+
+main.contact {
+	position: relative;
+	top: 58px;
+	height: 100%;
+	text-align: center;
+	background-color: tan;
+	font-family: Quicksand, sans-serif;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 0;
+  resize: vertical;
+  background-color: rgba(255, 255, 255, 0.5); 
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+	position: relative;
+	top: 5%;
+	text-align: left;
+	width: 50%;
+	display: inline-block;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 20px;
+  margin: auto;
+}
+
+#invalidFirst, #invalidLast, #invalidEmail, #invalidMessage {
+	font-size: 12px;
+	color: red;
+	margin: 0;
+	padding: 0;
 }
