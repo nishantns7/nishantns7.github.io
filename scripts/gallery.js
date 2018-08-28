@@ -9,6 +9,7 @@ request.onload = function() {
 	populatePage(srcList);
 }
 function populatePage(jsonObj) {
+	var srcList = jsonObj["src"];
 	for (var i = 0; i < srcList.length; i++) {
 		var myImg = document.createElement('img');
 		var myLink = document.createElement('a');
