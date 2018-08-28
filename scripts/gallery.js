@@ -41,9 +41,10 @@ function populatePage(jsonObj) {
 			editImg.style.display = "block";
 			closeImg.style.display = "block";
 		}
-		myImg.onmouseout = function() {
+	/*	myImg.onmouseout = function() {
 			editImg.style.display = "none";
 			closeImg.style.display = "none";
 		}
+		*/
 	}
 }

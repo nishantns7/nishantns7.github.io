@@ -178,6 +178,7 @@ img.gallery {
 
 .edit, .close {
 	position: absolute;
+	z-index: 2;
 	top: 2px;
 	right: 2px;
 	height: 20px;
