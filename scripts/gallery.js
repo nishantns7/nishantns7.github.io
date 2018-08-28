@@ -38,8 +38,8 @@ function populatePage(jsonObj) {
 		myDiv.appendChild(myLink);
 
 		myImg.onmouseover = function() {
-			editImg.style.display = "inline-block";
-			closeImg.style.display = "inline-block";
+			editImg.style.display = "block";
+			closeImg.style.display = "block";
 		}
 		myImg.onmouseout = function() {
 			editImg.style.display = "none";
