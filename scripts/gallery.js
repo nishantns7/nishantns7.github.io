@@ -19,9 +19,11 @@ function populatePage(jsonObj) {
 
 		editImg.className = "edit";
 		editImg.src = "images/edit_button.svg";
+		editImg.style.display = "none";
 
 		closeImg.className = "close";
 		closeImg.src = "images/close_button.png";
+		closeImg.style.display = "none";
 
 		imgDiv.style.display = "inline-block";
 
@@ -42,8 +44,8 @@ function populatePage(jsonObj) {
 		myDiv.appendChild(myLink);
 
 		myImg.onmouseover = function() {
-			editImg.style.display = "block";
-			closeImg.style.display = "block";
+			editImg.style.display = "inline-block";
+			closeImg.style.display = "inline-block";
 		}
 		myImg.onmouseout = function() {
 			editImg.style.display = "none";
