@@ -11,6 +11,7 @@ request.onload = function() {
 function populatePage(jsonObj) {
 	var srcList = jsonObj["src"];
 	for (var i = 0; i < srcList.length; i++) {
+		var imgDiv = document.createElement('div');
 		var myImg = document.createElement('img');
 		var editImg = document.createElement('img');
 		var closeImg = document.createElement('img');
@@ -22,6 +23,8 @@ function populatePage(jsonObj) {
 		closeImg.className = "close";
 		closeImg.src = "images/close_button.png";
 
+		imgDiv.style.display = "inline-block";
+
 		myImg.src = srcList[i];
 		myLink.href = srcList[i];
 
@@ -32,19 +35,19 @@ function populatePage(jsonObj) {
 		myLink.target = "_blank";
 		myLink.className = "gallery";
 
-		myImg.appendChild(closeImg);
-		myImg.appendChild(editImg);
-		myLink.appendChild(myImg);
+		imgDiv.appendChild(closeImg);
+		imgDiv.appendChild(editImg);
+		imgDiv.appendChild(myImg);
+		myLink.appendChild(imgDiv);
 		myDiv.appendChild(myLink);
 
 		myImg.onmouseover = function() {
 			editImg.style.display = "block";
 			closeImg.style.display = "block";
 		}
-	/*	myImg.onmouseout = function() {
+		myImg.onmouseout = function() {
 			editImg.style.display = "none";
 			closeImg.style.display = "none";
 		}
-		*/
 	}
 }
