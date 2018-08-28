@@ -177,7 +177,7 @@ img.gallery {
 	position: relative;
 }
 
-.edit, .close {
+.gallery img:hover .edit {
 	position: absolute;
 	top: 2px;
 	right: 2px;
