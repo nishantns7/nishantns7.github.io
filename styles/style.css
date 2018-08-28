@@ -176,6 +176,7 @@ div.gallery {
 
 img.gallery {
 	position: relative;
+	z-index: 0;
 }
 
 .edit, .close {
@@ -184,6 +185,7 @@ img.gallery {
 	right: 2px;
 	height: 15px;
 	width: 15px;
+	z-index: 10;
 }
 
 
