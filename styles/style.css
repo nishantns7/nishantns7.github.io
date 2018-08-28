@@ -155,11 +155,6 @@ a.About {
 
 body.gallery {
 	overflow: scroll;
-	z-index: -10;
-}
-
-main.gallery {
-	z-index: -1;
 }
 
 div.gallery {
@@ -171,7 +166,6 @@ div.gallery {
 	padding-left: 25px;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 10px 10px;
-	z-index: -1;
 }
 
 .gallery a:hover img {
@@ -180,7 +174,7 @@ div.gallery {
 
 img.gallery {
 	position: relative;
-	z-index: 0;
+	z-index: 5;
 }
 
 .edit, .close {
