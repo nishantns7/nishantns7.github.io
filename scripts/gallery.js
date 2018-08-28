@@ -25,6 +25,7 @@ function populatePage(jsonObj) {
 		myImg.src = srcList[i];
 		myLink.href = srcList[i];
 
+		myImg.className = "gallery";
 		myImg.height = "300";
 		myImg.width = "400";
 

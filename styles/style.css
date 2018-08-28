@@ -172,6 +172,18 @@ div.gallery {
 	box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
 }
 
+img.gallery {
+	position: relative;
+}
+
+.edit, .close {
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	height: 15px;
+	width: 15px;
+}
+
 
 
 
