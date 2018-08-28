@@ -166,6 +166,7 @@ div.gallery {
 	padding-left: 25px;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 10px 10px;
+	z-index: -1;
 }
 
 .gallery a:hover img {
