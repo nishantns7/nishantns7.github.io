@@ -177,7 +177,7 @@ img.gallery {
 }
 
 .close {
-	position: absolute;
+	position: relative;
 	top: 2px;
 	right: 2px;
 	height: 20px;
@@ -186,7 +186,7 @@ img.gallery {
 }
 
 .edit {
-	position: absolute;
+	position: relative;
 	top: 2px;
 	right: 24px;
 	height: 20px;
