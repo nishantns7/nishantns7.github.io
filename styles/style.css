@@ -158,6 +158,10 @@ body.gallery {
 	z-index: -10;
 }
 
+main.gallery {
+	z-index: -1;
+}
+
 div.gallery {
 	display: grid;
 	position: relative;
