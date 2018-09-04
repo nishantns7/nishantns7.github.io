@@ -1,13 +1,56 @@
-{
-	"src" : [
-		"images/BrownBear1.jpg",
-		"images/BrownBear2.jpg",
-		"images/BrownBear3.jpg",
-		"images/BrownBear4.jpg",
-		"images/BrownBear5.jpg",
-		"images/BrownBear6.jpg",
-		"images/BrownBear7.png",
-		"images/BrownBear8.jpg",
-		"images/BrownBear9.jpg"
-	]
-}
+[
+	{
+		"name": "Brown Bear 1",
+		"info": "A brown bear",
+		"src": "images/BrownBear1.jpg",
+		"date": "06/07/1996"
+	},
+	{
+		"name": "Brown Bear 2",
+		"info": "A brown bear",
+		"src": "images/BrownBear2.jpg",
+		"date": "08/13/1997"
+	},
+	{
+		"name": "Brown Bear 3",
+		"info": "A brown bear",
+		"src": "images/BrownBear3.jpg",
+		"date": "02/18/1999"
+	},
+	{
+		"name": "Brown Bear 4",
+		"info": "A brown bear",
+		"src": "images/BrownBear4.jpg",
+		"date": "09/11/2001"
+	},
+	{
+		"name": "Brown Bear 5",
+		"info": "A brown bear",
+		"src": "images/BrownBear5.jpg",
+		"date": "11/26/2004"
+	},
+	{
+		"name": "Brown Bear 6",
+		"info": "A brown bear",
+		"src": "images/BrownBear6.jpg",
+		"date": "02/14/2006"
+	},
+	{
+		"name": "Brown Bear 7",
+		"info": "A brown bear",
+		"src": "images/BrownBear7.png",
+		"date": "10/10/2010"
+	},
+	{
+		"name": "Brown Bear 8",
+		"info": "A brown bear",
+		"src": "images/BrownBear8.jpg",
+		"date": "12/12/2012"
+	},
+	{
+		"name": "Brown Bear 9",
+		"info": "A brown bear",
+		"src": "images/BrownBear9.jpg",
+		"date": "08/31/2018"
+	}
+]
