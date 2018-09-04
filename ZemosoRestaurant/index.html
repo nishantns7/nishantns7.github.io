@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Zemoso Restaurant</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <div id="main">
+      <div id="tables">
+        <h2>Tables</h2>
+        <input type="text" placeholder="Search table.." id="tableSearch">
+        <div class="table" id="table1">
+          <h3>Table 1</h3>
+          <p>Rs. <span id="costTable1">0</span> | Total items: <span id="numberTable1">0</span></p>
+        </div>
+        <div class="table" id="table2">
+          <h3>Table 2</h3>
+          <p>Rs. <span id="costTable2">0</span> | Total items: <span id="numberTable2">0</span></p>
+        </div>
+        <div class="table" id="table3">
+          <h3>Table 3</h3>
+          <p>Rs. <span id="costTable3">0</span> | Total items: <span id="numberTable3">0</span></p>
+        </div>
+      </div>
+      <div id="menu">
+        <h2>Menu</h2>
+        <input type="text" placeholder="Search menu.. by course, by food" id="menuSearch">
+        <div id="menuItemDiv"></div>
+      </div>
+    </div>
+    <script type="text/javascript" src="scripts/restaurant.js"></script>
+  </body>
+</html>
