@@ -8,7 +8,7 @@ var table1 = [];
 var table2 = [];
 var table3 = [];
 
-var requestURL = "../menu.json";
+var requestURL = "menu.json";
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
